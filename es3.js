@@ -10,4 +10,5 @@ const Customer = {
     Age : age,
     Address : address
 }
+
 console.log(Customer)
