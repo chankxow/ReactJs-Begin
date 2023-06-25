@@ -11,3 +11,5 @@ sumation=(...numberArr)=>{
 
 console.log(sumation(50,100));
 console.log(sumation(50,100,450));
+console.log(sumation(50,100,450,2500));
+console.log(sumation(50,100,450,1000,2542));
