@@ -12,8 +12,8 @@ const product = {
     Stock:20
 }
 
-const {Item,Price,Stock} = product // can use --> const {product:Item,product:Price,product:Stock} = product 
+const {Item:n,Price:s,Stock:r} = product // can use --> const {Item,Price,Stock} = product 
 
-console.log(Item)
-console.log(Price)
-console.log(Stock)
+console.log(n)
+console.log(s)
+console.log(r)
