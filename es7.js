@@ -1,3 +1,7 @@
+//Destructuring
+
+
+//Arr
 const colors = ["red","green","blue"]
 
 const [red,green,blue] = colors
@@ -6,6 +10,7 @@ console.log(red);
 console.log(green);
 console.log(blue);
 
+//Object
 const product = {
     Item: "COMPUTER 4.0",
     Price: 40000,
