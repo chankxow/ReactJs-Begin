@@ -7,4 +7,4 @@ let City = "อุดรธานี"
 const address = `สวัสดีฉันชื่อ ${Name} อยู่บ้านเลขที่ ${Address}
 จังหวัด ${City}`
 
-console.log(address)
+console.log(address);
