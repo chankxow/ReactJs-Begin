@@ -5,5 +5,20 @@ findIndex(ข้อมูล)=>ผลการค้นหาจะได้ต�
 */
 
 const colors = ['red','green','blue','purple','white']
+
+// findOf()
 const index = colors.indexOf('red')
+const index1 = colors.indexOf('green')
+const index2 = colors.indexOf('blue')
+
 console.log(index)
+console.log(index1)
+console.log(index2)
+
+// find()
+const search = colors.find(e => e === 'red')
+console.log(search)
+
+//findIndex
+const searchIndex = colors.findIndex(e => e === 'red')
+console.log(searchIndex)
