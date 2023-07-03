@@ -12,3 +12,12 @@ const result = number.map(e=>{
 console.log(`Array number = ${number}`) //เดิม
 console.log(`Array map result = ${result}`)//ใหม่
 
+//Array map string
+
+const data = ['ฝนตก','แดดออก' ,'ฟ้ารร้อง','ฟ้ามืด','ฟ้าพ่า']
+
+const dataResult = data.map((e,i)=>{
+    return `วันที่ ${i++} สภาพอากาศ ${e}` 
+})
+
+console.log(dataResult)
