@@ -21,3 +21,12 @@ const dataResult = data.map((e,i)=>{
 })
 
 console.log(dataResult)
+
+const timeWeather = [   {Day:"1/01/23",Weather:"ฝนตก",temp:25},
+                        {Day:"2/01/23",Weather:"ฟ้าร้อง",temp:25},
+                        {Day:"3/01/23",Weather:"แดดออก",temp:25}
+]
+
+const timeWeatherResult = timeWeather.map(e=>e.Weather)
+
+console.log(timeWeatherResult)
