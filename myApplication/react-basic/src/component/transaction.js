@@ -1,8 +1,9 @@
 import Item from "./item";
 
 const Transaction =()=>{
+
     return(
-    <ul>
+    <ul className="item-list">
       <Item/>
       <Item/>
       <Item/>

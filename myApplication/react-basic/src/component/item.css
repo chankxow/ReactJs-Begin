@@ -3,3 +3,8 @@
     list-style-type: none;
     text-align: center;
 }
+
+.item-list{
+    padding:0;
+    margin-top: 40px;
+}

@@ -11,3 +11,8 @@ body{
   min-height: 100vh;
   margin: 0;
 }
+
+.container{
+  margin: auto;
+  width: 350px;
+}
