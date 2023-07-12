@@ -1,6 +1,8 @@
 import Transaction from './component/transaction'
 
-const Title = ()=><h1>บัญชีรายรับราย - รายจ่าย</h1>
+const design = {color:'red',textAlign:'center',fontSize:'1.5em'}
+
+const Title = ()=><h1 style={design}>บัญชีรายรับราย - รายจ่าย</h1>
 
 function App() {
   return (
@@ -9,8 +11,6 @@ function App() {
     <Transaction/>
     </>
   );
-
-
 }
 
 export default App;
