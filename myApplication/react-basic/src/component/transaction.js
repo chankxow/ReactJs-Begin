@@ -5,9 +5,6 @@ const Transaction =()=>{
     return(
     <ul className="item-list">
       <Item/>
-      <Item/>
-      <Item/>
-      <Item/>
     </ul>
     );
 }
