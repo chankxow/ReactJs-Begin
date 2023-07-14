@@ -1,5 +1,5 @@
 const Item = (props)=>{
-    return <li>{}<span>- {}</span></li>
+    return <li>{props.title}<span>{props.amount}</span></li>
 }
 
 export default Item
