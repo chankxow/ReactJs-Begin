@@ -1,5 +1,5 @@
 import Item from "./item";
-
+import './transaction.css'
 const Transaction =()=>{
 
     return(

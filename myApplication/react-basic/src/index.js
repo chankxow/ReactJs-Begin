@@ -4,11 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// create component
-function HelloComponent(){
-  return <h1>สวัสดีชาวโลกในไทย</h1>
-}
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,4 +1,3 @@
-import './item.css'
 const Item = ()=>{
     const name = "โรงแรม"
     const price = 2500
