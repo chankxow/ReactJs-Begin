@@ -4,7 +4,7 @@ const Transaction =()=>{
 
     return(
     <ul className="item-list">
-      <Item/>
+      <Item title='ค่าอาหาร' amount='250'/>
     </ul>
     );
 }
