@@ -5,15 +5,15 @@ const Transaction =()=>{
     {title:'ค่าอาหาร',amount:'250'},
     {title:'ค่าน้ำ',amount:'150'},
     {title:'ค่าขนม',amount:'500'},
-    {title:'ค่าน้ำมัน',amount:'400'}
+    {title:'ค่าน้ำมัน',amount:'400'},
+    {title:'ค่าที่พัก',amount:'1800'}
   ]
     return(
     <ul className="item-list">
-      <Item title={data[0].title} amount={data[0].amount}/>
-      <Item title={data[1].title} amount={data[1].amount}/>
-      <Item title={data[2].title} amount={data[2].amount}/>
-      <Item title={data[3].title} amount={data[3].amount}/>
-    </ul>
+      {data.map((element)=>{
+        return <Item title={element.title} amount={element.amount}/>
+      })}
+      </ul>
     );
 }
 
