@@ -13,7 +13,7 @@ const Transaction =()=>{
     return(
     <ul className="item-list">
       {data.map((element)=>{
-        return <Item title={element.title} amount={element.amount}/>
+        return <Item {...element}/>
       })}
       </ul>
     );
