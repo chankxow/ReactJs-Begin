@@ -6,4 +6,8 @@ const Item = (props)=>{
 
 }
 
+Item.prototype={
+    title,
+    amount
+}
 export default Item
